@@ -67,9 +67,23 @@ Integrate the same card for library checkouts, transportation, and attendance sy
 
 ## 📸 Screenshots
 
-| Web Dashboard | NFC Test |
-|---------------|----------|
-| ![Web Dashboard](docs/screenshots/dashboard.png) | ![NFC](docs/screenshots/nfc_test.png) |
+<p align="center">
+  <img src="/screenshots/dashboard.png" alt="Dashboard" width="320"/> 
+  <img src="/screenshots/SPI_Connection.png" alt="Connection" width="320"/>
+</p>
+<p align="center">
+  <img src="/screenshots/time-menu.png" alt="Time-Menu" width="320"/> 
+  <img src="/screenshots/transaction.png" alt="Transaction" width="320"/>
+</p>
+<p align="center">
+  <img src="/screenshots/Reciept.jpg" alt="Receipt" width="320"/> 
+  <img src="/screenshots/Hardware.jpg" alt="Hardware" width="320"/>
+</p>
+<p align="center">
+  <img src="/screenshots/billing1.png" alt="Billing" width="320"/> 
+  <img src="/screenshots/billing2.png" alt="Printing" width="320"/>
+</p>
+
 
 ---
 
