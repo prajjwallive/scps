@@ -1,0 +1,42 @@
+/* scps1/css/style.css */
+
+/* Basic reset or custom styles not easily done with Tailwind */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure the modal is centered and visible */
+.modal {
+    display: flex; /* Override hidden default for JS control */
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add some transition for cart panel */
+#cartPanel.translate-x-full {
+    transform: translateX(100%);
+}
+#cartPanel.translate-x-0 {
+    transform: translateX(0);
+}
+
+/* Style for food item cards */
+.food-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.food-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 20px -5px rgba(0, 0, 0, 0.1), 0 6px 10px -3px rgba(0, 0, 0, 0.05);
+}
+
+/* Quantity input styling */
+.quantity-controls input[type="number"] {
+    -moz-appearance: textfield; /* Firefox */
+}
+.quantity-controls input::-webkit-outer-spin-button,
+.quantity-controls input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
