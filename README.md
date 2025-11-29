@@ -17,7 +17,7 @@ Designed to replace manual ordering and billing systems, it ensures:
 
 ---
 
-## 🎯 Key Features
+## 🎯 Key Features of SCPS
 
 ✅ **NFC-Enabled Payments**  
 Students pay using NFC cards linked to prepaid balances, removing the need for cash handling.
